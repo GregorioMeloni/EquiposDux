@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile   # Ruta al Dockerfile relativa al contexto
+
+    ports:
+      - "8080:8080"
